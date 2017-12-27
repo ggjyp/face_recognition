@@ -1,6 +1,7 @@
 ## 人脸识别
 ### 实验环境
 - python2.7
+- openCV 2.4.13
 
 人脸识别程序主要分为三个部分：
 1. 创建一个dataset：datasetCreator.py
