@@ -1,6 +1,8 @@
 ## 人脸识别
 ### 实验环境
-- python2.7
+- python 2.7
+- numpy 1.12.1
+- Pillow 4.1.1
 - openCV 2.4.13
 
 人脸识别程序主要分为三个部分：
@@ -24,6 +26,6 @@
 若识别到的人脸储存在dataSet中，显示对应的人名
 
 ## 使用方法
-1. 运行datasetCreator.py 输入人脸编号，默认采集50张样本
+1. 运行datasetCreator.py 输入人脸编号、姓名(需要在姓名首尾加单引号)、年龄。默认采集50张样本
 2. 运行trainner.py 训练识别器
 3. 运行detector.py 打开摄像头识别人脸
